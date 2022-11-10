@@ -3,9 +3,55 @@
     box-sizing: border-box;
 }
 
+/* shorthad - backgraund color > imagem > psition > repeat > [size] > attachement */
 body {
-    background-color: #f6f8fc;
+    height: 100vh;
+    background: url(/assets/img/fundo.png) no-repeat center center fixed ;
+    background-size: cover;
+    /*background-image: url(/assets/img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;*/
 }
+
+header{
+    text-align: center;
+    background-color: rgb(248, 6, 46);
+    display: flex;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    flex-direction: column;
+}
+
+header h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+header img{
+    width: 200px;
+}
+
+section {
+    background-image: url(/assets/img/fundo2.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-attachment: fixed;      
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(250, 6, 46);
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: .2rem;
+    padding: 0.5rem;
+}
+
 
 .content {
     width: 100vw;
